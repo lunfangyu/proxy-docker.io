@@ -1,4 +1,4 @@
-# Zheng-Pages-docker.io
+# proxy-docker.io
 该项目是一个基于Cloudflare的Pages实现的Docker镜像代理工具。可以有效的中转对Docker官方镜像的请求，解决当下访问限制问题
 
 
@@ -19,16 +19,11 @@
 | 提供商 | 	地址 |
 | --- | --- |
 | DaoCloud | https://docker.m.daocloud.io/ |
-| 阿里云 | https://<your_code>.mirror.aliyuncs.com |
-| Docker镜像代理 | https://dockerproxy.com/ |
-| 百度云 | https://mirror.baidubce.com/ |
-| 南京大学 | https://docker.nju.edu.cn/ |
 | 中科院 | https://mirror.iscas.ac.cn/ |
 
 
 2. 第三方镜像地址
 ```powershell
-
 https://docker.registry.cyou
 https://docker.jsdelivr.fyi
 https://dockerpull.com
